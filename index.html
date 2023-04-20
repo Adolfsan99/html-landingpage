@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+	<script src="https://kit.fontawesome.com/8c3e990eb9.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<header>
+	<div class="icon">
+		<i></i>
+		<i></i>
+		<i></i>
+	</div>
+	<nav>
+		<ul class="primer">
+			<div class="img">
+				<li><a href="#"><img src="img/logo.png" width="57px;"></a></li>
+			</div>
+			<div class="menu">
+				<li><a href="#">Inicio</a></li> 
+				<li><a href="#" class="menu2">Servicios</a>
+					<ul class="segundo">
+						<li><a href="#">Conócenos</a></li>
+						<li><a href="#" class="menu3">Recursos </a>	
+						<li><a href="#">Cotizaciones</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Marca</a></li>
+				<li><a href="#">Portafolio</a></li>
+				<li><a href="#">Contáctenos</a></li>
+			</div>
+		</ul>
+	</nav>
+</header>
+			
+<section id="container-slider">
+	<a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+	<a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+	<ul class="listslider">
+		<li><a itlist="itlist_0" href="#" class="item-select-slid"></a></li>
+		<li><a itlist="itlist_1" href="#"></a></li>
+		<li><a itlist="itlist_2" href="#"></a></li>
+	</ul>
+	<ul id="slider">
+		<li style="background-image: url('https://cdn.pixabay.com/photo/2016/01/06/21/42/light-bulbs-1125016_960_720.jpg'); z-index:0; opacity:1;">
+			<div class="content_slider">
+				<div>
+					<h2>Emprendimiento empresarial</h2>
+					<p>Descubra en qué consiste el emprendimiento empresarial por medio de 5 estrategias</p>
+					<a href="#" class="btnSlider">Ver más</a>
+				</div>
+			</div>
+		</li>
+		<li style="background-image: url('https://cdn.pixabay.com/photo/2015/11/07/12/02/business-1031754_960_720.jpg'); z-index:0; opacity:1;">
+			<div class="content_slider">
+				<div>
+					<h2>Negocios</h2>
+					<p>Recursos, guías, herramientas y consejos para emprender, crea tu empresa o inicia un negocio exitoso</p>
+					<a href="#" class="btnSlider">Ver más</a>
+				</div>
+			</div>
+		</li>
+		<li style="background-image: url('https://cdn.pixabay.com/photo/2017/06/04/20/48/plan-2372176_960_720.jpg'); z-index:0; opacity:1;">
+			<div class="content_slider">
+				<div>
+					<h2>Estrategias de negocio</h2>
+					<p>Las estrategias de negocio representan planes o métodos</p>
+					<a href="#" class="btnSlider">Ver más</a>
+				</div>
+			</div>
+		</li>
+	</ul>
+</section>
+
+	<div class="container1" style="background-color: #f1c40f; height: 300px; width: auto;"></div>
+	<div class="container2" style="background-color: #2ecc71; height: 300px; width: auto;"></div>
+	<div class="container3" style="background-color: #e74c3c; height: 300px; width: auto;"> </div>
+	<div class="container4" style="background-color: #f39c12; height: 300px; width: auto;"></div>
+	
+	<a href="https://api.whatsapp.com/send?phone=573104679562"><img src="img/ws.png" width="55px;" class="ws"  alt="whatsapp"></a>
+	<button  id="button" title="Back to top">
+		<i class="fas fa-angle-up"></i> 
+	</button>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
